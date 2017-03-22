@@ -1,0 +1,25 @@
+@media (min-device-width: 992px) and (max-device-width: 1172px) {
+	.wrap {
+		background: url(../image/man-2.jpg) no-repeat;
+		background-size: cover;
+	}
+	
+	p {
+		width: 35%;
+		position: absolute;
+		top: 35%;
+		left: auto;
+		right: 2%;
+		font-size: 1em;
+	}
+}
+
+@media (max-device-width: 991px) {
+	p {
+		position: relative;
+		top: 1%;
+		color: #000;
+		text-align: center;
+	}
+}
+	
