@@ -1,25 +1,43 @@
-@media (min-device-width: 992px) and (max-device-width: 1172px) {
-	.wrap {
-		background: url(../image/man-2.jpg) no-repeat;
-		background-size: cover;
+
+@media all and (min-device-width: 992px) and (max-device-width: 1172px), (min-width: 992px) and (max-width: 1172px) {
+	body {
+		text-align: center;
+	}
+	#man-1 {
+		display: none;
+	}
+	#man-2 {
+		display: inline-block;
 	}
 	
+	img {
+		width: 70%;	
+	}
+
+
 	p {
 		width: 35%;
 		position: absolute;
-		top: 35%;
+		top: 15%;
 		left: auto;
-		right: 2%;
-		font-size: 1em;
+		right: 12%;
+		font-size: 0.7em;
 	}
 }
 
-@media (max-device-width: 991px) {
+
+@media all and (max-device-width: 991px), (max-width: 991px) {
+	
+	img {
+		height: 350px;
+	}
+	
+
 	p {
 		position: relative;
 		top: 1%;
 		color: #000;
 		text-align: center;
+		font-size: 0.7em;
 	}
 }
-	
